@@ -1,0 +1,28 @@
+name: "My First netcat"
+author: "hfz1337"
+
+category: welcome
+
+description: |
+  > Hey there!  
+  > Some challenges for this CTF are accessible with `nc` (netcat) command, which can be installed using the following command :  
+  > `sudo apt install netcat` (on Ubuntu, Debian, etc...)  
+  > Prove that you can use netcat and get this flag!  
+
+  **Connect with** : nc welcome.mk.shellmates.me 1337  
+
+  **Author:** hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{1_c4n_c0mun1c4t3_w1th_n3tw0rk_s3rv1c3s_y4y!}
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  chal:
+    build: .
+    ports:
+      - '1337:1337'
+    environment:
+      - FLAG=shellmates{1_c4n_c0mun1c4t3_w1th_n3tw0rk_s3rv1c3s_y4y!}
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          memory: 50M

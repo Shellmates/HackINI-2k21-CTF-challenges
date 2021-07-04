@@ -1,0 +1,25 @@
+name: "SQLi - 0x2"
+author: "hfz1337"
+
+category: web
+
+description: |
+  > Pinata time! Find the hidden flag in the database.  
+
+  **Link** : http://138.68.101.239:8881  
+
+  **Author**: hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{1_r34lly_h0p3_u_d1dnt_us3_4n_aut0m4t3d_t0ol}
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,26 @@
+name: "can't see - 0x0"
+author: "chenx3n"
+
+category: misc
+
+description: |
+  > This one is supposed to get you warmed up ;)
+  > Have a shell!
+
+  **Connect with** : nc misc.mk.shellmates.me 3331  
+
+  **Author** : chenx3n
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{GOo0Od_wARmuP_F0r_Wh47$_n3xT}
+
+state: hidden
+
+version: "0.1"

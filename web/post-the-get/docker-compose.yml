@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+
+  web:
+    build: .
+    ports:
+      - '8882:3000'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure

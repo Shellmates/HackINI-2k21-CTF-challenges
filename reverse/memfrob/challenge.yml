@@ -1,0 +1,29 @@
+name: "memfrob"
+author: "chenx3n"
+
+category: reverse
+
+description: |
+  > The C standard really does have some obscure functions  
+  > Good thing documentation exists!
+
+  **Connect with** : nc reverse.mk.shellmates.me 1111  
+
+  **Author** : chenx3n
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{mEmFRob_i$_JusT_$1mplE_xOoOor}
+
+files:
+  - ./memfrob-28f22a13f0b86c2c3238b77670568c92.zip
+
+state: hidden
+
+version: "0.1"

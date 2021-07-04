@@ -1,0 +1,27 @@
+name: "linux3"
+author: "ouxs"
+
+category: linux
+
+description: |
+  > The straight way isn't always the best, sometimes It's
+  > better not to go directly.  
+
+  **Connect with**: ssh -p 2223 ch3@linux.mk.shellmates.me  
+  **Password** : dfae0b45a58cfd9d903d872861389b20  
+
+  **Author** : ouxs
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{Wh0_ThouGht_SSSYM_l1nk5_cAn_C4uSe_Pr0bleM$}
+
+state: hidden
+
+version: "0.1"

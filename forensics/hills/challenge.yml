@@ -1,0 +1,27 @@
+name: "hills"
+author: "anii76"
+
+category: forensics
+
+description: |
+  > Does the image look familiar ?  
+  > There's something behind the hills, try to find it!  
+
+  **Author** : anii76
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{4lwayz_ch3ck_he4der$}
+
+files:
+  - ./green-hills.png
+
+state: hidden
+
+version: "0.1"

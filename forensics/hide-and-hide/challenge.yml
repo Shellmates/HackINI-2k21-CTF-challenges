@@ -1,0 +1,27 @@
+name: "Hide and Hide"
+author: "serinesefardjelah"
+
+category: forensics
+
+description: |
+  > Shellmates logo is hiding a cool text, can u find it?  
+  > Remember the flag format: shellmates{}
+
+  **Author** : serinesefardjelah
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{57394n0924_phy_I5_1E37}
+
+files:
+  - logo.png
+
+state: hidden
+
+version: "0.1"

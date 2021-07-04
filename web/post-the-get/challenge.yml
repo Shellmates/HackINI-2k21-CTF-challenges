@@ -1,0 +1,25 @@
+name: "Post the Get"
+author: "aghilesino"
+
+category: web 
+
+description: |
+  > A simple form to fill, nothing special right?  
+
+  **Link** : http://web.mk.shellmates.me:8882  
+
+  **Author** : Aghilesino
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags: 
+  - shellmates{7HE_w3B_is_w31RD}
+
+state: hidden
+
+version: "0.1"

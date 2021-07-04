@@ -1,0 +1,26 @@
+name: "Crack.INI"
+author: "hfz1337"
+
+category: reverse
+
+description: |
+  > Retrieve the serial key for which the program prints the success message.  
+
+  **Author:** hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{PPTAH-VOCBB-IEAIC-15UXU-2TDOK-4FOBQ}
+
+files:
+  - ./challenge/crackini
+
+state: hidden
+
+version: "0.1"

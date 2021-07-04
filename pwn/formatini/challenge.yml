@@ -1,0 +1,32 @@
+name: "Format.INI"
+author: "hfz1337"
+
+category: pwn
+
+description: |
+  > _printf is just used for printing anyways, so nothing
+  > should go wrong..._  
+  > Disprove this saying by getting a shell on the remote system.  
+
+  **Connect with** : ncat --ssl --ssl-verify pwn-formatini.k8s.shellmates.me 443  
+  **Or** : nc pwn-formatini.k8s.shellmates.me 4446  
+
+  **Author**: hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{0h_s%n4p!_1_d1d%n't_%n0w_th1s_w0uld_c4us3_m3_tr0ubl3}
+
+files:
+  - ./challenge/formatini
+  - ./src/formatini.c
+
+state: hidden
+
+version: "0.1"

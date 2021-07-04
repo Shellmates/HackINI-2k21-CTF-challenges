@@ -1,0 +1,25 @@
+name: "My First SQLi"
+author: "chenx3n"
+
+category: web 
+
+description: |
+  > My First SQL injection!!  
+
+  **Link** : http://web.mk.shellmates.me:8884  
+
+  **Author** : chenx3n
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags: 
+  - shellmates{SQLi_goeS_BrrRrRR}
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  sqli:
+    container_name: web_sqli
+    image: web/sqli:latest
+    build: .
+    ports:
+      - '8881:80'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 50M

@@ -1,0 +1,27 @@
+name: "linux1"
+author: "ouxs"
+
+category: linux
+
+description: |
+  > They said you got some LINUX skills!  
+  > Let's test them out  
+
+  **Connect with**: ssh -p 2221 ch1@linux.mk.shellmates.me  
+  **Password** : f53796f924d3ba088c02e963db04d26a  
+
+  **Author** : ouxs
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{This_k1D_KnOws_how_We_d0_7h1ng5_h3R3}
+
+state: hidden
+
+version: "0.1"

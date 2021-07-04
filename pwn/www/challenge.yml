@@ -1,0 +1,32 @@
+name: "www"
+author: "chenx3n"
+
+category: pwn
+
+description: |
+  > www.. World Wide Web??  
+
+  **Connect with** : ncat --ssl --ssl-verify pwn-www.k8s.shellmates.me 443  
+  **Or** : nc pwn-www.k8s.shellmates.me 4442  
+
+  **Author** : chenx3n
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{WrITE_Wh44AA4AT_WH3r3}
+
+tags:
+
+files:
+  - ./challenge/www
+  - ./lib/libc-2.27.so
+
+state: hidden
+
+version: "0.1"

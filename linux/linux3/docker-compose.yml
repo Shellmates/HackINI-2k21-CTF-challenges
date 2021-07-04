@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+
+  linux3:
+    build: .
+    ports:
+      - '2223:22'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          memory: 50M
+

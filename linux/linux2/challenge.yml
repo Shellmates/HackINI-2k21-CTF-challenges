@@ -1,0 +1,26 @@
+name: "linux2"
+author: "ouxs"
+
+category: linux
+
+description: |
+  > If only can you see what's really going on...  
+
+  **Connect with**: ssh -p 2222 ch2@linux.mk.shellmates.me  
+  **Password** : 7e95f28caf75a4f5848ece440c2a0e8d  
+
+  **Author** : ouxs
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{Y0U_ArE_n07_sUppO$3D_T0_$ee_THIs_pS_RUined_MY_D4y}
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,27 @@
+name: "Sudoku"
+author: "hfz1337"
+
+category: programming
+
+description: |
+  > _Welcome to the Sudoku championship!_  
+
+  **Connect with** : nc prog.mk.shellmates.me 4431  
+
+  **How to submit** : submit the exact same grid (with that ASCII magic and all), but obviously filled with the right numbers  
+
+  **Author**: hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{n0w_d0_1t_w1th_a_64x64_gr1d_huh??}
+
+state: hidden
+
+version: "0.1"

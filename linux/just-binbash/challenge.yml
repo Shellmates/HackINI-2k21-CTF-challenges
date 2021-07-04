@@ -1,0 +1,27 @@
+name: "just /bin/bash"
+author: "chenx3n"
+
+category: linux
+
+description: |
+  > Yaaay I got a shell!  
+  > Wait there's no ls, no cat, just /bin/bash !!  
+
+  **Connect with** : ssh -p 2225 ctf@linux.mk.shellmates.me  
+  **Password** : ctf  
+
+  **Author** : chenx3n
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{sH3ll_built1ns_FTW}
+
+state: hidden
+
+version: "0.1"

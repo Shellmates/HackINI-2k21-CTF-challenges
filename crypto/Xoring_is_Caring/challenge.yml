@@ -1,0 +1,26 @@
+name: "Xoring is Caring"
+author: "haithem_lamri"
+
+category: crypto
+
+description: |
+  > I've xored my flag using a random key, could you find my secret flag ?  
+  
+  **Author** : haithem_lamri
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{Kn0wn_Pl4in_73xT_4774ck}
+
+files:
+  - ./enc.txt
+
+state: hidden
+
+version: "0.1"

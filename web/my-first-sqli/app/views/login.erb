@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <title> My First SQLi </title>
+  </head>
+
+  <body>
+    <div class="card mt-3 p-3 w-50">
+      <div class="card-body">
+        <h2></i> Login</h2>
+
+        <form method="POST" action="/">
+          <div class="form-group">
+            <label for="username">SELECT * FROM USERS WHERE username = </label>
+            <input class="form-control" name="username" id="username" required>
+            <label for="password">AND password = </label>
+            <input class="form-control" name="password" id="password" required>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

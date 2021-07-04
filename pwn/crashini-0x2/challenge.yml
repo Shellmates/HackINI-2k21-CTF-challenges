@@ -1,0 +1,25 @@
+name: "Crash.INI - 0x2"
+author: "hfz1337"
+
+category: pwn
+
+description: |
+  > Nice, now get a shell on the system :)  
+
+  **Connect with** : ncat --ssl --ssl-verify pwn-crashini.k8s.shellmates.me 443  
+  **Or** : nc pwn-crashini.k8s.shellmates.me 4441  
+  **Author**: hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{sm4sh1ng_th3_st4ck_f0r_fun_4nd_pr0f1t}
+
+state: hidden
+
+version: "0.1"

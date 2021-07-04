@@ -1,0 +1,10 @@
+Dear participant,
+
+Congrats on getting this far, It's really satisfying to see people getting good technical skills.
+
+This challenge was easy, wasn't it? but you still managed to learn one new thing or two, this is typically my goal from every challenge I implement for CTF contests, there is no point in implementing a crackme in Rust and adding packers like Themida or VMProtect, it makes the challenge hard, but not necessarily of good quality.
+
+Oh and I forgot, here is your flag: shellmates{x86_has_WA4AY_Too_M4nY_IN$TRUC710N$}
+
+Best,
+Redouane

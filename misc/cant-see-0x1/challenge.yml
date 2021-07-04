@@ -1,0 +1,26 @@
+name: "can't see - 0x1"
+author: "chenx3n"
+
+category: misc
+
+description: |
+  > You can still have a shell!  
+  > But this time I'm only showing output if there's an error in your command :D
+
+  **Connect with** : nc misc.mk.shellmates.me 3332  
+
+  **Author** : chenx3n
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{IO_reDIr3CtI0N_i$_a1W4y$_ImPOr7Ant}
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,29 @@
+name: "SOS"
+author: "hfz1337"
+
+category: misc
+
+description: |
+  > _Mayday mayday! The nazis are invading de_aztec, we need
+  > some reinforcements over here!_  
+  > _I'm sending you their coordinates, over._  
+
+  **Author**: hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{1_l0v3_b4rc0d3es_4nd_1_l0v3_d3_4zt3c_:)}
+
+files:
+  - ./message.txt
+
+state: hidden
+
+# Leave this as is.
+version: "0.1"

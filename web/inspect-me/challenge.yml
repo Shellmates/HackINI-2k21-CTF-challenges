@@ -1,0 +1,25 @@
+name: "Inspect Me"
+author: "chenx3n"
+
+category: web
+
+description: |
+  > Inspect me plz  
+
+  **Link** : http://web.mk.shellmates.me:8883  
+
+  **Author** : chenx3n
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{CLA$SI1111C_ch4l1enGE}
+
+state: hidden
+
+version: "0.1"

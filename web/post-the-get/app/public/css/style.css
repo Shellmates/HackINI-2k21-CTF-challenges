@@ -1,0 +1,68 @@
+h1{
+	margin-top:30px;
+
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+
+body {
+    text-align: center;
+}
+form {
+    width:300px;
+    height:400px;
+    padding:0px;
+    display: inline-block;
+    margin-top:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:relative;
+
+}
+
+.inside{
+	margin-top:40%;
+}
+
+#sub{
+	margin-top: 30px;
+	background-color:white;
+	font-family: 'Press Start 2P', cursive;
+	color:black;
+	border: none;
+}
+
+
+
+#name{
+	margin-bottom:30px;
+	margin-top:10px;
+	border:1px solid black;
+}
+
+.fname{
+	
+	font-family: 'Press Start 2P', cursive;
+	font-size:12;
+
+}
+
+
+.addr{
+
+	font-family: 'Press Start 2P', cursive;
+	font-size:12;
+
+}
+
+
+#address{
+	margin-top:20px;
+	border:1px solid black;
+}
+
+#message{
+	visibility:hidden;
+	margin:0;
+	padding:0;
+}

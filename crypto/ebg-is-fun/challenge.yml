@@ -1,0 +1,25 @@
+name: "EBG is fun"
+author: "serinesefardjelah"
+
+category: crypto
+
+description: |
+  > Cryptography can be easy, do you know what ROT13 is?  
+
+  `furyyzngrf{WHFG_bar1_ENAQbBZ_synT}`  
+
+  **Author** : serinesefardjelah
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{JUST_one1_RANDoOM_flaG}
+
+state: hidden
+
+version: "0.1"

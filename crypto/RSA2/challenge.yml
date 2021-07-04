@@ -1,0 +1,27 @@
+name: "RSA2"
+author: "haithem_lamri"
+
+category: crypto
+
+description: |
+  > So using small numbers to construct the modulus was a bad idea, this time i've chosen a small exponent to make the encryption much faster, 
+  > and even N is very large so you won't be able to get the flag!! Can you do it again?!  
+  
+  **Author** : haithem_lamri
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{4v0id_5m4ll_3xp0n3nt5}
+
+files:
+  - ./RSA2.txt
+
+state: hidden
+
+version: "0.1"

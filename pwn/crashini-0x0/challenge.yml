@@ -1,0 +1,29 @@
+name: "Crash.INI - 0x0"
+author: "hfz1337"
+
+category: pwn
+
+description: |
+  > Never discard compiler warnings.  
+
+  **Connect with** : ncat --ssl --ssl-verify pwn-crashini.k8s.shellmates.me 443  
+  **Or** : nc pwn-crashini.k8s.shellmates.me 4441  
+  **Author**: hfz1337
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{g00d_j0b_y0u_cr4sh3d_th3_pr0gram}
+
+files:
+  - ./challenge/crashini
+  - ./src/crashini.c
+
+state: hidden
+
+version: "0.1"
